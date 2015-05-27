@@ -75,7 +75,10 @@ USING SQL ASSIGNMENT
 
 
 9) Simulate buying an item by inserting a User for yourself and an Order for that User.
+    A: I worked and worked on this, but kept getting errors I couldn't figure out. Even restarted SQLITE3, no luck.
 
+    Code: INSERT INTO users (first_name, last_name, email) VALUES (Will, Sherman, vvj5aticlouddotcom);
+    Error: no such column: Will
 
 
 
