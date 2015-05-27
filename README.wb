@@ -69,7 +69,9 @@ USING SQL ASSIGNMENT
 
 8) How much was spent on books?
 
-    A:
+    A:  in Items/categories, select books, then set item_id=price;
+        in Orders, select books, multiply prices by quantity;
+        sum of order amounts
 
 
 9) Simulate buying an item by inserting a User for yourself and an Order for that User.
